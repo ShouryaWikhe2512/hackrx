@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Distribution / packaging
+.Python
+env/
+venv/
+*.egg
+*.whl
+dist/
+build/
+pip-wheel-metadata/
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.bak
+*.swo
+*.DS_Store
+
+# Logs and databases
+*.log
+*.db
+*.sqlite3
+
+# Environment variables and sensitive data
+.env
+.env.*
+config.ini
+secrets.json
+
+# FastAPI specific
+# If using Uvicorn/Gunicorn, temporary files might be generated
+# Example: uvicorn_temp_files/
+
+# Testing
+.coverage
+htmlcov/
+.nox/
+.tox/
+.venv/
+.pytest_cache/
+data/
+
+# Other
+.ipynb_checkpoints
